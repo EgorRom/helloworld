@@ -56,6 +56,38 @@ public class Main {
         System.out.println("Вес такого коктейля в граммах составит "+cocktail);
         float cocktailKg = (float) cocktail/1000;
         System.out.println("В кг составит "+cocktailKg);
+        // Задача №7
+        int excessWeightKg = 7;
+        int excessWeightGram = excessWeightKg*1000;
+        int weightLoss1 = 250;
+        int weightLoss2 = 500;
+        int averageLoss = (weightLoss1+weightLoss2)/2;
+        int weightLossDays1 =excessWeightGram/weightLoss1;
+        System.out.println("Требуется кол-во дней при потере 250 гр/д равно "+weightLossDays1);
+        int weightLossDays2 = excessWeightGram/weightLoss2;
+        System.out.println("Требуется кол-во дней при потере 500 гр/д равно "+weightLossDays2);
+        int weightLossDays3 = excessWeightGram/averageLoss;
+        System.out.println("При средней потере веса потребуется "+weightLossDays3+" дней!");
+        // Задача №8
+        int mashasSalary = 67760;
+        int denissSalary = 83690;
+        int kristinasSalary = 76230;
+        float newMashasSalary = mashasSalary+mashasSalary*0.1f;
+        float annualSalaryDifferenceM = newMashasSalary*12-mashasSalary*12f;
+        System.out.println("Маша теперь получает "+newMashasSalary+" рублей в месяц. Годовой доход вырос на "+annualSalaryDifferenceM+" рублей!");
+        float newDenissSalary = denissSalary+denissSalary*0.1f;
+        float annualSalaryDifferenceD = newDenissSalary*12-denissSalary*12f;
+        System.out.println("Денис теперь получает "+newDenissSalary+ " рублей в месяц. Годовой доход вырос на "+annualSalaryDifferenceD+" рублей!");
+        float newKristinasSalary = kristinasSalary+kristinasSalary*0.1f;
+        float annualSalaryDifferenceK= newKristinasSalary*12-kristinasSalary*12f;
+        System.out.println("Кристина теперь получает " +newKristinasSalary+" рублей в месяц. Годовой доход вырос на "+annualSalaryDifferenceK+" рублей!");
+
+
+
+
+
+
+
 
 
 
