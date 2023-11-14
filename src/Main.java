@@ -12,7 +12,7 @@ public class Main {
         float typeFive = 5.5f;
         System.out.println("Значение переменной typeFive с типом float равно "+typeFive);
         double typeSix = 5.55555555;
-        System.out.println("Значение переменной typeSix с типом doubl равно "+typeSix);
+        System.out.println("Значение переменной typeSix с типом double равно "+typeSix);
         // Задача №2
         float a = 27.12f;
         long b = 987678965549L;
