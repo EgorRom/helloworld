@@ -32,13 +32,13 @@ public class Main {
         if (age>2 && age<6 ) {
             System.out.println("Если возраст человека равен "+age+" Нужно ходить в детский сад");
         }
-        if (age>7 && age<17) {
+        else if (age>7 && age<17) {
             System.out.println("Если возраст человека равен "+age+" Нужно ходить в школу!");
         }
-        if (age>= 18 && age <=24) {
+        else if (age>= 18 && age <=24) {
             System.out.println("Если возраст человека равен "+age+" Нужно учиться в универе");
         }
-        if (age > 24) {
+        else  {
             System.out.println("Если возраст человека равен "+age+" Пора работать)))");
         }
         System.out.println("Задача №5");
