@@ -28,7 +28,7 @@ public class Main {
             System.out.println("Можно нздить спокойно");
         }
         System.out.println("Задача №4");
-        int age = 22;
+        int age = 3;
         if (age>2 && age<6 ) {
             System.out.println("Если возраст человека равен "+age+" Нужно ходить в детский сад");
         }
@@ -42,14 +42,14 @@ public class Main {
             System.out.println("Если возраст человека равен "+age+" Пора работать)))");
         }
         System.out.println("Задача №5");
-        int ageOfTheChild = 30;
-        boolean cantRide = ageOfTheChild < 5;
-        boolean accompanied = ageOfTheChild > 7 && ageOfTheChild < 14;
+        int ageOfTheChild = 4;
+        boolean cantRide = ageOfTheChild <= 5;
+        boolean accompanied = ageOfTheChild >= 7 && ageOfTheChild < 14;
 
         if (cantRide) {
             System.out.println("Если возраст ребёнка равен "+ageOfTheChild+ " нельзя кататься на атракционах");
         }
-        if (accompanied) {
+        else if (accompanied) {
             System.out.println("Если возраст ребёнка равен "+ageOfTheChild+" Можно кататься в сопровождении взрослого");
         }
         else {
