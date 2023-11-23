@@ -17,7 +17,7 @@ public class Main {
 
         }
         System.out.println("Задача №2");
-        int clientDeviceYear = 2010;
+        int clientDeviceYear = 2020;
         int clientOs = 0;
         if (clientOs==1 && clientDeviceYear<2015){
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
