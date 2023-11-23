@@ -58,7 +58,7 @@ public class Main {
             System.out.println("Доставки не будет");
         }
         System.out.println("Задача №5");
-        int month = 13;
+        int month = 12;
         switch (month) {
             case 12:
             case 1:
